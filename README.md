@@ -1,11 +1,11 @@
 ## purpose
-The repository is about learning kubernetes source code,include golang original base package which is used in Kubernetes and Kubernetes package
+学习平时使用的K8S源码
 
 ## directory
-Directory structure analysis 
+源码目录 
 ```
-|-- pkg //golang source code package
-|   `-- cobra
+|-- pkg //k8s源码中使用的部分包
+|   `-- cobra //cobra命令行框架
 |       |-- cmd
 |       |   |-- root.go
 |       |   `-- world.go
